@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<pay_rewards xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 首充奖励 -->
+	<pay_reward id="1" pay_name="帐号首充" type="FIRST_PAY" start_time="2017-01-01T00:00:00" end_time="2017-01-03T23:59:59" msg="完成每日首充任意金额即可获得奖励物品!">
+		<reward_group price="1">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+	</pay_reward>
+	<!-- 定额充值奖励 -->
+	<pay_reward id="2" pay_name="每日充值" type="APPOINT_PAY" start_time="2017-01-10T00:00:00" end_time="2017-01-13T23:59:59" msg="完成每日充值可获得对应奖励物品!">
+		<reward_group price="10">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+		<reward_group price="50">
+			<reward_part itemId="186000230" count="500"/>
+		</reward_group>
+		<reward_group price="100">
+			<reward_part itemId="186000230" count="1000"/>
+		</reward_group>
+	</pay_reward>
+	<!-- 账户累计充值奖励 -->
+	<pay_reward id="3" pay_name="累计充值" type="TOTAL_PAY" start_time="2017-01-10T00:00:00" end_time="2017-01-13T23:59:59" msg="帐号累计充值达到指定金额即可获得奖励物品!">
+		<reward_group price="1000">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+		<reward_group price="2000">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+		<reward_group price="3000">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+	</pay_reward>
+	<!-- 累计消费奖励 该功能未实现，无法使用 -->
+	<pay_reward id="4" pay_name="累计消费" type="TOTAL_CONSUM" start_time="2017-01-10T00:00:00" end_time="2017-01-13T23:59:59" msg="活动期间累计消费达到指定商城币即可获得奖励物品!">
+		<reward_group price="100">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+		<reward_group price="500">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+		<reward_group price="1000">
+			<reward_part itemId="186000230" count="100"/>
+		</reward_group>
+	</pay_reward>
+</pay_rewards>

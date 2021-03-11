@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "游戏服务", "游戏服务", "{46221459-678E-4A34-BC15-1E125CD6D86B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "登录服务", "登录服务", "{610787D3-6B49-4C26-ACE8-CCD00479E07A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "公共模块", "公共模块", "{D95AA952-3493-4416-A541-1BBEF0E6B788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "聊天服务", "聊天服务", "{404AA304-32F4-47E3-8320-8512CF65FB52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aion.Emu.Common", "公共模块\Aion.Emu.Common\Aion.Emu.Common.csproj", "{190F0945-8AFF-45F9-8331-29AA78480954}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aion.Emu.ChatService", "聊天服务\Aion.Emu.ChatService\Aion.Emu.ChatService.csproj", "{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aion.Emu.LoginService", "登录服务\Aion.Emu.LoginService\Aion.Emu.LoginService.csproj", "{E974107B-1B5A-4D67-A6B6-26E9B3251D84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{88274D23-D5C7-4E99-82A2-B1592E95114F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{EB9017CD-4FD3-4269-8CA7-8982DB12B0D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{032B00AE-6DCA-4301-B4B4-A67535E10AD4}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\database\sql\chat.sql = Resources\database\sql\chat.sql
+		Resources\database\sql\ls.sql = Resources\database\sql\ls.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Debug|x86.Build.0 = Debug|Any CPU
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Release|x86.ActiveCfg = Release|Any CPU
+		{190F0945-8AFF-45F9-8331-29AA78480954}.Release|x86.Build.0 = Release|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788}.Release|x86.Build.0 = Release|Any CPU
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Debug|x86.ActiveCfg = Debug|x86
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Debug|x86.Build.0 = Debug|x86
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Release|x86.ActiveCfg = Release|x86
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{190F0945-8AFF-45F9-8331-29AA78480954} = {D95AA952-3493-4416-A541-1BBEF0E6B788}
+		{DD4676E7-0FAE-46D8-A65E-A5353A7ED788} = {404AA304-32F4-47E3-8320-8512CF65FB52}
+		{E974107B-1B5A-4D67-A6B6-26E9B3251D84} = {610787D3-6B49-4C26-ACE8-CCD00479E07A}
+		{EB9017CD-4FD3-4269-8CA7-8982DB12B0D2} = {88274D23-D5C7-4E99-82A2-B1592E95114F}
+		{032B00AE-6DCA-4301-B4B4-A67535E10AD4} = {EB9017CD-4FD3-4269-8CA7-8982DB12B0D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BF2FAD7-AF15-47BB-803F-4B97EFF93B0E}
+	EndGlobalSection
+EndGlobal
